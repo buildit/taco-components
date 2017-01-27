@@ -4,7 +4,11 @@
   "description": "Components library for Project T.A.C.O.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests yet!\" && exit 0"
+    "test": "echo \"No tests yet!\" && exit 0",
+    "validate": "npm run test",
+    "preversion": "npm run validate",
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
