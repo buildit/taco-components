@@ -1,4 +1,4 @@
-export PlaceHolderImage from './components/1-Atoms/PlaceholderImage';
+export PlaceholderImage from './components/1-Atoms/PlaceholderImage';
 export QuantityPicker from './components/1-Atoms/QuantityPicker';
 export ViewTitle from './components/1-Atoms/ViewTitle';
 export MenuCategoryItem from './components/2-Molecules/MenuCategoryItem';
