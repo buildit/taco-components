@@ -1,6 +1,0 @@
-# Ignoring source code, publishing built artifacts.
-
-components
-.babelrc
-.gitignore
-.travis.yml
