@@ -8,7 +8,8 @@
     "validate": "npm run test",
     "preversion": "npm run validate",
     "version": "git add -A",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "build": "babel components/**/*.jsx -d build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/buildit/taco-components#readme",
   "dependencies": {
     "slugify": "^1.1.0",
+    "babel-cli": "^6.16.0",
     "babel-core": "^6.7.6",
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-runtime": "^6.15.0",
