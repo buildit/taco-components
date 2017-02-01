@@ -1,7 +1,17 @@
-# taco-components
-Components library for project taco
+# Taco Components
+A React components library for Project T.A.C.O.
 
-## Deployment
+## Usage
+```
+npm install --save taco-components
+```
+
+Then, in your React file:
+```
+import { QuantityPicker } from 'taco-components'
+```
+
+## For developers of Taco Components
 We're using Travis to handle continuous deployment. Right now, it's very basic. It pulls in the latest code and attempts to publish it to npm's registry.
 
 The publish only happens on tagged commits. Use npm's 'version' command to do the version tags. Here's a sample workflow:
