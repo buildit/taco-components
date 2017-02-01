@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const ViewTitle = ({ title }) => (
   <div className="view-title">
     <h1>{title}</h1>
-    <Link to="/cart"><span>Cart</span></Link>
+    <Link to="/cart"><span className="cart">Cart</span></Link>
   </div>
 )
 
