@@ -4,18 +4,18 @@ import MenuCategoryItem from '../2-Molecules/MenuCategoryItem';
 // TODO: Provide via Redux store, via network request
 const fakeCategories = [
   {
-    name: "Popular",
+    name: "New",
+    reverseType: true,
+  },
+  {
+    name: "Breakfast",
     reverseType: true,
   },
   {
     name: "Tacos",
-    reverseType: true,
   },
   {
     name: "Burritos",
-  },
-  {
-    name: "Drinks",
     reverseType: true,
   },
 ]
