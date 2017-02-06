@@ -9,7 +9,7 @@ const MenuItem = ({ name, price, quantity = 0, styles = {} }) => (
           <span className={styles['name'] || 'name'}>{name}</span>
           <span className={styles['price'] || 'price'}>{price}</span>
       </div>
-      <QuantityPicker quantity={6} />
+      <QuantityPicker quantity={6} styles={styles} />
     </div>
 );
 
