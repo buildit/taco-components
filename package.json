@@ -1,6 +1,6 @@
 {
   "name": "taco-components",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Components library for Project T.A.C.O.",
   "main": "index.js",
   "scripts": {
