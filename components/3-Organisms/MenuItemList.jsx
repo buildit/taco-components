@@ -6,18 +6,26 @@ const fakeMenu = [
   {
     name: "Taco Supreme",
     price: 1,
+    coins: "200",
+    imageUrl: "../assets/images/image-1.png",
   },
   {
     name: "Nacho Cheese Doritos Locos Tacos Supreme",
     price: 2.99,
+    coins: "300",
+    imageUrl: "../assets/images/image-2.png",
   },
   {
     name: "Supreme Dream Chalupa Extreme",
     price: 1.99,
+    coins: "400",
+    imageUrl: "../assets/images/image-3.png",
   },
   {
     name: "Extra Chalupito Mini Bigdog",
     price: 1.99,
+    coins: "500",
+    imageUrl: "../assets/images/image-4.png",
   },
 ]
 
@@ -32,6 +40,7 @@ class MenuItemList extends Component {
             key={index}
             name={item.name}
             price={formatPrice(item.price)}
+            coins={item.coins}
             imageUrl={item.imageUrl}
           />
         ))}
