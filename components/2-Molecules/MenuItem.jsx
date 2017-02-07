@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PlaceholderImage from '../1-Atoms/PlaceholderImage';
 import QuantityPicker from '../1-Atoms/QuantityPicker';
 
-const MenuItem = ({ name, price, imageUrl, quantity = 0, styles = {} }) => (
+const MenuItem = ({ name, price, imageUrl, coins, quantity = 0, styles = {} }) => (
     <div className={styles['menu-item'] || 'menu-item'}>
       <img src={imageUrl} className="menu-image"/>
       <div className={styles['info'] || 'info'}>
