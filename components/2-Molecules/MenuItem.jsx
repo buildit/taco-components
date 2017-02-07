@@ -9,6 +9,11 @@ const MenuItem = ({ name, price, imageUrl, quantity = 0, styles = {} }) => (
           <span className={styles['name'] || 'name'}>{name}</span>
           <span className={styles['price'] || 'price'}>{price}</span>
       </div>
+      <div className="coins">
+        <span>
+          <img src="../assets/images/taco-coin.png" />
+          {coins}
+        </span>
       <QuantityPicker quantity={6} styles={styles} />
     </div>
 );
