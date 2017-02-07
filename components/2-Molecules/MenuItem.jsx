@@ -14,6 +14,7 @@ const MenuItem = ({ name, price, imageUrl, quantity = 0, styles = {} }) => (
           <img src="../assets/images/taco-coin.png" />
           {coins}
         </span>
+      </div>
       <QuantityPicker quantity={6} styles={styles} />
     </div>
 );
